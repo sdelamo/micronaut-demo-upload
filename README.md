@@ -25,25 +25,25 @@ Start Application
 Customer Purchases 1Kb File
 
 ```
-curl -X POST http://localhost:8080/upload-stream -F "file=@./data/1k.csv"
+curl -X POST http://localhost:8080/upload-stream -F "file=@./files/1k.csv"
 ```
 
 LakeCounty Health - 3kb F
 
 ```
-curl -X POST http://localhost:8080/upload-stream  -F "file=@./data/3k.csv"
+curl -X POST http://localhost:8080/upload-stream  -F "file=@./files/3k.csv"
 ```
 
 Air Quality File - 2.1MB
 
 ```
-curl -X POST http://localhost:8080/upload-stream -F "file=@./data/2MB.csv"
+curl -X POST http://localhost:8080/upload-stream -F "file=@./files/2MB.csv"
 ```
 
 Electric Vehicle Population 51MB File
 
 ```
-curl -X POST http://localhost:8080/upload-stream  -F "file=@./data/51MB.csv"
+curl -X POST http://localhost:8080/upload-stream  -F "file=@./files/51MB.csv"
 ```
 
 ### Test upload Files using the CompletedFileUpload Controller
@@ -51,23 +51,23 @@ curl -X POST http://localhost:8080/upload-stream  -F "file=@./data/51MB.csv"
 Customer Purchases 1Kb File
 
 ```
-curl -X POST http://localhost:8080/upload -F "file=@./data/1k.csv"
+curl -X POST http://localhost:8080/upload -F "file=@./files/1k.csv"
 ```
 
 LakeCounty Health - 3kb F
 
 ```
-curl -X POST http://localhost:8080/upload  -F "file=@./data/3k.csv"
+curl -X POST http://localhost:8080/upload  -F "file=@./files/3k.csv"
 ```
 
 Air Quality File - 2.1MB
 
 ```
-curl -X POST http://localhost:8080/upload  -F "file=@./data/2MB.csv"
+curl -X POST http://localhost:8080/upload  -F "file=@./files/2MB.csv"
 ```
 
 Electric Vehicle Population 51MB File
 
 ```
-curl -X POST http://localhost:8080/upload -F "file=@./data/51MB.csv"
+curl -X POST http://localhost:8080/upload -F "file=@./files/51MB.csv"
 ```
